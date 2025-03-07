@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRT Translator</title>
+</head>
+<body>
+    <h1>SRT Translator</h1>
+    <input type="file" id="file" accept=".srt">
+    <input type="password" id="api_key" placeholder="Enter your Gemini API key">
+    <button onclick="uploadAndTranslate()">Translate</button>
+    <div id="status"></div>
+    <a id="download" style="display: none;">Download Translated SRT</a>
+</body>
+</html>
